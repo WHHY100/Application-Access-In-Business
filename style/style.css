@@ -1,0 +1,96 @@
+.container {
+    width: 100%;
+}
+
+.header_content {
+    opacity: 1;
+    color: black;
+}
+
+.img {
+    float: right;
+    width: 100px;
+    height: 60px;
+}
+
+.menu {
+    margin-top: 1%;
+    background-color: #555;
+}
+
+.backgroundAccess {
+    background: url(https://www.cediformacio.com/wp-content/uploads/2016/03/access.jpg) center no-repeat;
+
+}
+
+.jumbotron_modif {
+    border: 1px dashed #616161;
+    margin-top: 1%;
+    width: 95%;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    animation: showHeader 1s alternate;
+    text-align: justify;
+}
+
+.app {
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 0;
+}
+
+.fontDownloadAppName {
+    font-size: 100%;
+    letter-spacing: 2px;
+}
+
+.colorNameAppDow {
+    color: darkblue;
+}
+
+.bottom_navbar {
+    font-size: 8px;
+}
+
+.mail {
+    unicode-bidi: bidi-override;
+    direction: rtl;
+    font-weight: bold;
+}
+
+@keyframes showHeader {
+    0% {
+        opacity: 0
+    }
+    100% {
+        opacity: 100%
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .img {
+        display: none;
+    }
+
+    .mobile {
+        overflow: visible;
+        text-align: center;
+        position: static;
+    }
+
+    .jumbotron_modif {
+        box-shadow: none;
+    }
+
+    .video {
+        overflow: hidden;
+    }
+}
