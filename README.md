@@ -1,6 +1,6 @@
 # MyHomePage
 https://whhy.ct8.pl
 
-Questions?:
+Questions?
 
     Write message to me.
